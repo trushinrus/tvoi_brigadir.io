@@ -1,0 +1,41 @@
+body {
+    background-color: #4503b1;
+    color: white;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: center;
+    margin-left: 0;
+}
+
+.line {
+    width: auto;
+}
+
+.soc {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.mini_soc {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.mini {
+    width: 100px;
+}
+
+.title_bot {
+    margin-top: -2.5vw;
+}
+
+@media (min-width: 554px) {
+    .title_bot {
+        margin-top: 0.3vw;
+    }
+}
